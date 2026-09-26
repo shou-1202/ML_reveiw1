@@ -1,10 +1,10 @@
 # Dependencies
-node_modules/
+**/node_modules/
 .pnp
 .pnp.js
 
 # Production build outputs
-dist/
+**/dist/
 dist-ssr/
 build/
 
@@ -15,7 +15,7 @@ build/
 .env.production.local
 
 # Python & ML
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 *.so
